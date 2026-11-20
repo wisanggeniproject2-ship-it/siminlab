@@ -20,6 +20,12 @@ class UserSeeder extends Seeder
             'password' => Hash::make('admin'), // Enkripsi password 
             'role' => 'Admin', 
             ]); 
+            User::create([ 
+            'name' => 'Admin SIMINLAB', 
+            'email' => 'admin@smkn2-mjk.sch.id', 
+            'password' => Hash::make('admin'), // Enkripsi password 
+            'role' => 'Admin', 
+            ]); 
         User::create([ 
             'name' => 'Siswa Contoh', 
             'email' => 'siswa@smkn2-mjk.sch.id', 
